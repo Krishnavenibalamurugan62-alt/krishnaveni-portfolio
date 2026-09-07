@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Krishnaveni B - Software Developer Portfolio" />
+  <title>Krishnaveni B | Software Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar container">
+      <a class="logo" href="#home"><span>&lt;/&gt;</span> Krishnaveni B</a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <a class="resume-btn" href="assets/Krishnaveni_Resume.pdf" download>
+        Resume <i class="fa-solid fa-download"></i>
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow hero-glow-1"></div>
+      <div class="hero-glow hero-glow-2"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="role-pill">
+            <span class="dot"></span>
+            SOFTWARE DEVELOPER <b>•</b> AI <b>•</b> IoT
+          </div>
+
+          <p class="eyebrow">Hello, I’m</p>
+          <h1>Krishnaveni B</h1>
+          <h2>Software Developer</h2>
+          <p class="hero-text">
+            Computer Science and Engineering student with hands-on experience in
+            full-stack web development, cloud technologies, Android applications,
+            AI/LLM concepts and IoT-based systems.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects <i class="fa-solid fa-arrow-right"></i></a>
+            <a class="btn btn-outline" href="#contact">Contact Me</a>
+          </div>
+
+          <div class="stats">
+            <div class="stat"><i class="fa-solid fa-briefcase"></i><div><strong>2</strong><span>Internships</span></div></div>
+            <div class="stat"><i class="fa-solid fa-code"></i><div><strong>2+</strong><span>Projects</span></div></div>
+            <div class="stat"><i class="fa-solid fa-award"></i><div><strong>4+</strong><span>Certifications</span></div></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="orbit orbit-1"></div>
+          <div class="orbit orbit-2"></div>
+          <div class="planet"></div>
+
+          <div class="photo-frame">
+            <img src="assets/profile.jpg" alt="Krishnaveni B." class="profile-photo" />
+          </div>
+
+          <div class="floating-card ai-card">
+            <i class="fa-solid fa-brain"></i>
+            <div><strong>AI / LLM</strong><span>Build intelligent solutions</span></div>
+          </div>
+
+          <div class="floating-card iot-card">
+            <i class="fa-solid fa-microchip"></i>
+            <div><strong>IoT</strong><span>Connect Real World</span></div>
+          </div>
+
+          <div class="code-card">
+            <div class="code-dots"><span></span><span></span><span></span></div>
+            <pre><code>const developer = {
+  name: "Krishnaveni B",
+  role: "Software Developer",
+  skills: ["AI", "Web", "IoT"]
+};</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container content-grid">
+        <article class="glass-card about-card reveal">
+          <div class="section-title"><i class="fa-regular fa-user"></i><h3>About Me</h3></div>
+          <p>
+            I’m a Computer Science and Engineering student passionate about creating practical
+            software solutions. I enjoy working across web development, AI applications,
+            cloud technologies, AI/LLM and IoT systems.
+          </p>
+          <p>
+            I’m looking for an entry-level Software Developer opportunity where I can learn
+            quickly, solve real-world problems and contribute to meaningful applications.
+          </p>
+          <div class="mini-line"></div>
+        </article>
+
+        <article class="glass-card reveal" id="skills">
+          <div class="section-title"><i class="fa-solid fa-gear"></i><h3>Skills</h3></div>
+          <div class="skills-grid">
+            <div class="skill"><i class="fa-brands fa-python"></i><span>Python</span></div>
+            <div class="skill"><strong>C</strong><span>C</span></div>
+            <div class="skill"><i class="fa-brands fa-java"></i><span>Java</span></div>
+            <div class="skill"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+            <div class="skill"><i class="fa-brands fa-html5"></i><span>HTML/CSS</span></div>
+            <div class="skill"><i class="fa-solid fa-database"></i><span>SQL</span></div>
+            <div class="skill"><i class="fa-solid fa-brain"></i><span>AI / LLM</span></div>
+            <div class="skill"><i class="fa-solid fa-microchip"></i><span>NodeMCU/ESP8266</span></div>
+            <div class="skill"><i class="fa-solid fa-cloud"></i><span>Vercel / Render</span></div>
+          </div>
+        </article>
+
+        <article class="glass-card projects-card reveal" id="projects">
+          <div class="section-title"><i class="fa-regular fa-folder"></i><h3>Featured Projects</h3></div>
+
+          <a class="project" href="#" aria-label="IoT Based Keypad Door Lock System">
+            <div class="project-icon"><i class="fa-solid fa-lock"></i></div>
+            <div>
+              <h4>IoT-Based Keypad Door Lock System</h4>
+              <p>Developed an IoT-based keypad door lock using NodeMCU ESP8266 with cloud monitoring and secure access control.</p>
+              <div class="tags"><span>NodeMCU</span><span>ESP8266</span><span>IoT</span></div>
+            </div>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+
+          <a class="project" href="#" aria-label="AI Powered College Chatbot">
+            <div class="project-icon"><i class="fa-solid fa-robot"></i></div>
+            <div>
+              <h4>AI-Powered College Chatbot</h4>
+              <p>Ongoing AI-powered chatbot to provide students with college-related information using LLMs, NLP concepts and a user-friendly chatbot interface.</p>
+              <div class="tags"><span>AI</span><span>LLM</span><span>Web</span></div>
+            </div>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="heading reveal">
+          <span>Career Journey</span><h3>Internship Experience</h3>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-top"><h4>Full Stack Development Intern</h4><span>Dec 2025</span></div>
+              <h5>Brainier Spot Technology</h5>
+              <p>Developed responsive web applications, integrated databases for efficient data management, and implemented user-focused interfaces and application functionality.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-top"><h4>App Development Intern</h4><span>Jan 2025 – Feb 2025</span></div>
+              <h5>PHOENIX SOFTECH</h5>
+              <p>Developed Android application components with practical exposure to UI design, application functionality, and basic database integration.</p>
+            </div>
+          </article>
+        </div>
+    </section>
+
+    <section class="section" id="certifications">
+      <div class="container">
+        <div class="heading reveal"><span>Learning</span><h3>Certifications</h3></div>
+        <div class="cert-grid">
+          <div class="cert reveal"><i class="fa-solid fa-certificate"></i><span>NPTEL – Data Science using Python</span></div>
+          <div class="cert reveal"><i class="fa-solid fa-certificate"></i><span>NPTEL – AI Constraint Satisfaction</span></div>
+          <div class="cert reveal"><i class="fa-solid fa-certificate"></i><span>AI Tools Workshop</span></div>
+          <div class="cert reveal"><i class="fa-solid fa-certificate"></i><span>E-Box – Problem Solving and Programming in C</span></div>
+          <div class="cert reveal"><i class="fa-solid fa-certificate"></i><span>Oracle – Cloud Infrastructure</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-card reveal">
+        <div>
+          <span class="contact-kicker">LET’S CONNECT</span>
+          <h3>Have an opportunity or project in mind?</h3>
+          <p>I’m open to software development opportunities, internships and collaborative projects.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:venibalamurugan62@gmail.com"><i class="fa-solid fa-envelope"></i> venibalamurugan62@gmail.com</a>
+          <a href="tel:+918668116132"><i class="fa-solid fa-phone"></i> +91 86681 16132</a>
+          <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/krishnaveni-balamurugan-4b9214310"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Krishnaveni B All rights reserved.</p>
+      <a href="#home">Back to top <i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
